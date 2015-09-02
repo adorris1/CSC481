@@ -1,0 +1,36 @@
+ public static LocalTime fromCalendarFields(Calendar calendar) {
+        if (calendar == null) {
+            throw new IllegalArgumentException("The calendar must not be null");
+        }
+        return new LocalTime(
+            calendar.get(Calendar.HOUR_OF_DAY),
+            calendar.get(Calendar.MINUTE),
+            calendar.get(Calendar.SECOND),
+            calendar.get(Calendar.MILLISECOND)
+        );
+    }
+
+    
+ in Days.java
+   public Days plus(int days) {
+        if (days == 0) {
+            return this;
+        }
+        return Days.days(FieldUtils.safeAdd(getValue(), days));
+    }
+    public Days multipliedBy(int scalar) {
+        return Days.days(FieldUtils.safeMultiply(getValue(), scalar));
+    }
+
+    /**
+    
+    
+ 
+ in Months.java
+  public Months plus(int months) {
+        if (months == 0) {
+            return this;
+        }
+        return Months.months(FieldUtils.safeAdd(getValue(), months));
+    }
+ 
