@@ -1,0 +1,19 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch myTime
+# Changes to be committed:
+#	modified:   ../.classpath
+#	deleted:    ../bin/Clock$1EventTimer.class
+#	deleted:    ../bin/Clock.class
+#	deleted:    ../bin/MenuBar$1MenuItemListener.class
+#	deleted:    ../bin/MenuBar$2MenuItemListener.class
+#	deleted:    ../bin/MenuBar$3MenuItemListener.class
+#	deleted:    ../bin/MenuBar.class
+#	deleted:    ../bin/mainTimeClass.class
+#	new file:   template.java
+#
+# Untracked files:
+#	../bin/
+#
+
