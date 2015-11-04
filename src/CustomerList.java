@@ -29,7 +29,7 @@ public class CustomerList {
 	public void addCustomer(Customer newCustomer){
 		//customerList.addFirst(newCustomer);
 	}
-	public int size(){
+	public int size(){///more comments
 		return customerList.size();
 	}
 	public void remove(Customer removeThis){
