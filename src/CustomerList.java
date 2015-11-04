@@ -19,14 +19,15 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 public class CustomerList {
+	//i made achange
 	
 	LinkedList<Customer> customerList = new LinkedList<Customer>();
 	ListIterator<Customer> iterator = customerList.listIterator();
 	public CustomerList(){
-		customerList = new LinkedList<Customer>();
+		//customerList = new LinkedList<Customer>();
 	}
 	public void addCustomer(Customer newCustomer){
-		customerList.addFirst(newCustomer);
+		//customerList.addFirst(newCustomer);
 	}
 	public int size(){
 		return customerList.size();
